@@ -168,6 +168,20 @@ limitations under the License.
     visibility: visible;
 }
 
+.mx_EventTile_permalinkButton {
+    position: absolute;
+    display: inline-block;
+    visibility: hidden;
+}
+
+.mx_EventTile:hover .mx_EventTile_permalinkButton {
+    visibility: visible;
+}
+
+.mx_EventTile.menu .mx_EventTile_permalinkButton {
+    visibility: visible;
+}
+
 .mx_EventTile.menu .mx_MessageTimestamp {
     visibility: visible;
 }
